@@ -102,7 +102,7 @@ const LineChart = () => {
     return (
         <div className="bg-white relative border border-gray-light-910 py-6 px-6 rounded-lg shadow-sm w-full h-[300px]">
             <canvas ref={chartRef} className="w-full h-full"></canvas>
-            <div className='absolute z-50 -top-[1%] font-semibold text-lg'>This Week’s Income</div>
+            <div className='absolute z-30 -top-[1%] font-semibold text-lg'>This Week’s Income</div>
         </div>
     );
 };

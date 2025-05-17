@@ -100,7 +100,7 @@ const PieChart = () => {
             <div className="flex-1 relative">
                 <canvas ref={chartRef} className="absolute inset-0 w-full h-full"></canvas>
                 <div ref={totalCardsRef} className="absolute inset-0"></div>
-                <div className='absolute z-50 -top-6 font-semibold text-lg'>Card Status Distribution</div>
+                <div className='absolute z-30 -top-6 font-semibold text-lg'>Card Status Distribution</div>
             </div>
         </div>
     );

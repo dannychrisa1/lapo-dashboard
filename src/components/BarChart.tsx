@@ -122,7 +122,7 @@ const BarChart = () => {
     return (
         <div className="relative bg-white border border-gray-light-910 p-6 rounded-lg shadow-sm w-full h-[310px]">
             <canvas ref={chartRef} className="w-full h-full"></canvas>
-            <div className='absolute z-50 -top-[1%] font-semibold text-lg'>Monthly Issuance</div>
+            <div className='absolute z-30 -top-[1%] font-semibold text-lg'>Monthly Issuance</div>
         </div>
     );
 };
