@@ -14,7 +14,7 @@ const Dashboard = () => {
             <Sidebar />
             <div className="lg:w-[80%] relative lg:left-[20%]  py-2 bg-white">
                 <Header />
-                <div className="bg-blue-light-300 h-[100vh]">
+                <div className="bg-blue-light-300 h-[auto] py-2">
                     <WelcomeSection />
                     <div className="bg-white h-[auto] border border-gray-light-910 rounded-xl py-4 px-2 mx-4 mt-4">
                         <p className="text-sm font-medium">Your Quick Access</p>
